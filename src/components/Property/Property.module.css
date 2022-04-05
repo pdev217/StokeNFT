@@ -1,0 +1,29 @@
+.wrapper {
+  width: 157px;
+  height: 79px;
+  background: #617bff1a 0% 0% no-repeat padding-box;
+  border: 1px solid var(--primary);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px 16px 0 0;
+}
+
+.type {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01px;
+  color: var(--primary);
+}
+
+.name {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.01px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

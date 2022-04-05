@@ -1,0 +1,29 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+
+	width: fit-content;
+	min-width: 400px;
+	padding: 26px 24px;
+
+	letter-spacing: 0.02px;
+
+	color: var(--white);
+	border-radius: 16px;
+	background: #FB3A50 0% 0% no-repeat padding-box;
+
+	font: normal normal medium 18px/33px Poppins;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.text {
+	position: relative;
+	bottom: 3px;
+
+	margin-left: 8px;
+}

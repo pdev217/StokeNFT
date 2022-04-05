@@ -1,0 +1,30 @@
+.wrapper {
+  border: 1px solid #ffffff4d;
+  height: 80px;
+  width: 54%;
+  color: var(--light-grey);
+  padding: 16px;
+  margin-top: 24px;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01px;
+}
+
+.wrapper > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  margin-top: 8px;
+  height: 8px;
+  background: #191d3b 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+}
+
+.filled {
+    background: var(--primary);
+    border-radius: 8px;
+    height: 100%;
+}

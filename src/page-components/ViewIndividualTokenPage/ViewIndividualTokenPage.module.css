@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topSection {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.leftSide {
+  width: 35%;
+  margin-right: 20px;
+}
+
+.rightSide {
+  width: 62.5%;
+}

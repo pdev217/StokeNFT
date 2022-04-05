@@ -1,0 +1,201 @@
+.pageWrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contentWrapper {
+	width: 100%;
+	max-width: 840px;
+}
+
+.mainTitle {
+	margin: 40px 0;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.title,
+.boldTitle {
+	margin-bottom: 4px;
+
+	letter-spacing: 0.01px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.name {
+	margin-bottom: 16px;
+}
+
+.boldTitle {
+	letter-spacing: 0.02px;
+
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.star {
+	color: var(--red);
+}
+
+.description {
+	margin-bottom: 16px;
+
+	letter-spacing: 0.01px;
+
+	color: var(--light-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+}
+
+.dragPlaceholder {
+	position: relative;
+
+	width: 100%;
+	max-width: 400px;
+	height: 200px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	border: 1px dashed #FFFFFF4D;
+	border-radius: 30px;
+	background-image: url("../../../public/create-nft/Icon-Image.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.imageWrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.dragPlaceholder:hover {
+	background-color: var(--dark-grey);
+}
+
+.audio {
+	position: absolute;
+}
+
+.video {
+	width: 90%;
+	position: absolute;
+}
+
+.uploadFileInput {
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+}
+
+.section {
+	margin-bottom: 24px;
+
+	color: white;
+}
+
+.sectionWithBigMarginBottom {
+	margin-bottom: 0;
+	padding-bottom: 24px;
+
+	border-bottom: 1px solid var(--dark-grey);
+}
+
+.externalLinkSection {
+	margin-bottom: 24px;
+
+	color: white;
+}
+
+.descriptionSection {
+	margin-bottom: 24px;
+
+	color: white;
+}
+
+.underlinedSection {
+	padding: 21px 0;
+
+	border-bottom: 1px solid var(--dark-grey);
+}
+
+.underlinedSection > div:first-child {
+	display: flex;
+}
+
+.unlockableDisplayed {
+	display: block;
+
+	margin-top: 24px;
+}
+
+.unlockableAbsent {
+	display: none;
+}
+
+.sectionWithMarginTop {
+	margin-top: 24px;
+}
+
+.underlinedSection .description {
+	margin-bottom: 0;
+}
+
+.fieldIcon {
+	position: relative;
+
+	width: 19px;
+
+	height: 19px;
+	margin-right: 12px;
+}
+
+.propertiesWrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.plus {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 42px;
+	height: 42px;
+	margin-left: auto;
+
+	cursor: pointer;
+
+	color: var(--primary);
+	border-radius: 9px;
+	background-color: var(--dark-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 42px;
+	font-weight: 200;
+}
+
+.switch {
+	margin-left: auto;
+}
+
+.button {
+	margin: 40px auto 160px 0;
+}

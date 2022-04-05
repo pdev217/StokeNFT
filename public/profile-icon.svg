@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="UserCircle" transform="translate(-3 -3)">
+    <path id="Контур_1" data-name="Контур 1" d="M13.5,23A9.5,9.5,0,1,0,4,13.5,9.5,9.5,0,0,0,13.5,23Z" fill="none" stroke="#fc3aaa" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Контур_2" data-name="Контур 2" d="M15.04,18.081A4.04,4.04,0,1,0,11,14.04,4.04,4.04,0,0,0,15.04,18.081Z" transform="translate(-1.54 -1.32)" fill="none" stroke="#fc3aaa" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Контур_3" data-name="Контур 3" d="M7.975,23.977a7.2,7.2,0,0,1,2.6-2.9,6.873,6.873,0,0,1,7.376,0,7.2,7.2,0,0,1,2.6,2.9" transform="translate(-0.763 -3.465)" fill="none" stroke="#fc3aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

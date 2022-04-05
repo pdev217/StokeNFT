@@ -1,0 +1,84 @@
+.collectorsColumn {
+	width: 33.33%;
+	padding: 0 3%;
+
+	border-right: 1px solid var(--white);
+}
+  
+.centralColumn {
+	width: calc(33% + 56px);
+}
+  
+.collectorsColumn:first-child {
+	padding-left: 0;
+}
+  
+.collectorsColumn:last-child {
+	padding-right: 0;
+
+	border: 0;
+}
+  
+.collector {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: 5px;
+	margin-bottom: 42px;
+
+	color: var(--white);
+}
+  
+.imageWrapper {
+	position: relative;
+
+	overflow: hidden;
+
+	width: 76px;
+	height: 76px;
+
+	border-radius: 50%;
+}
+  
+.number {
+	letter-spacing: 0.9px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+  
+.username {
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: 800;
+	line-height: 28px;
+}
+  
+.amountWithIcon {
+	line-height: 28px;
+}
+  
+.account,
+.NFTs {
+	letter-spacing: 0.8px;
+
+	color: var(--light-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 28px;
+}
+  
+.amountDifference {
+	position: relative;
+	top: 14px;
+}

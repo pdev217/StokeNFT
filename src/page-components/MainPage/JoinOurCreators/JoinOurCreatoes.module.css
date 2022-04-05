@@ -1,0 +1,95 @@
+.wrapper {
+	display: flex;
+
+	margin-top: 163px;
+	padding: 0 6.2%;
+
+	color: var(--white);
+}
+
+.leftSide {
+	width: 115%;
+}
+
+.leftSideTextButtonWrapper {
+	display: flex;
+
+	margin-top: 42px;
+}
+
+.leftSideTextWrapper {
+	width: 67%;
+	margin-right: 6.25%;
+}
+
+.leftSideTitle {
+	text-align: right;
+	letter-spacing: 0px;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.leftSideText {
+	margin-top: 39px;
+
+	text-align: right;
+	letter-spacing: 0px;
+
+	font-family: "Nimbus Sans", sans-serif;
+	font-size: 18px;
+	line-height: 33px;
+}
+
+.leftSideButton {
+	margin-top: 22px;
+}
+
+.deltaIcon {
+	margin-top: 25px;
+}
+
+.rightSide {
+	margin-top: 60px;
+	margin-left: 7.49%;
+	padding: 66px 85px 88px;
+
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	background: transparent
+		radial-gradient(closest-side at 50% 50%, var(--dark-grey) 0%, var(--black)0 100%) 0% 0%
+		no-repeat padding-box;
+}
+
+.bellIcon {
+	margin-bottom: 27px;
+}
+
+.rightSideTitle {
+	margin-bottom: 53px;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.rightSideText {
+	margin-bottom: 63px;
+
+	letter-spacing: 0px;
+
+	font: normal normal normal 18px/33px Nimbus Sans;
+	font-family: "Nimbus Sans", sans-serif;
+	font-size: 18px;
+	line-height: 33px;
+}
+
+.rightSideButton {
+	display: flex;
+	justify-content: center;
+}

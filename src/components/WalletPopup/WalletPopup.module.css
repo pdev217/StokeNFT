@@ -1,0 +1,114 @@
+.wrapper {
+	z-index: 100;
+
+	width: 640px;
+
+	background: #212020 0% 0% no-repeat padding-box;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+
+	box-sizing: border-box;
+	padding: 20px 0 20px 24px;
+
+	border-bottom: 1px solid var(--dark-grey);
+}
+
+.authTitle {
+	cursor: pointer;
+}
+
+.titleText {
+	margin-right: 8px;
+	margin-left: 12px;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.prompt {
+	margin: 40px 24px;
+
+	letter-spacing: 0.02px;
+
+	color: var(--light-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+}
+
+.walletLink {
+	cursor: pointer;
+
+	color: #FC3AAA;
+
+	font-weight: 600;
+}
+
+.chooseWalletBox {
+	margin: 0 24px;
+}
+
+.userBalance {
+	border: 1px solid var(--dark-grey);
+	border-radius: 16px 16px 0px 0px;
+}
+
+.authContentWrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	padding: 0 24px;
+}
+
+.userBalance {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 146px;
+	margin-top: 40px;
+}
+
+.balanceTitle {
+	margin-bottom: 10px;
+
+	letter-spacing: 0.02px;
+
+	color: var(--light-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+}
+
+.balanceNumber {
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.deltaIcon {
+	position: relative;
+
+	width: 16px;
+	height: 8px;
+}
+
+.myWalletOptionsPopup {
+	position: absolute;
+	top: 89px;
+}

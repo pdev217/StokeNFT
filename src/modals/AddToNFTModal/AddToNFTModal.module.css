@@ -1,0 +1,75 @@
+.section {
+	padding: 0 24px;
+
+	border-bottom: 1px solid var(--dark-grey);
+	max-height: 70vh;
+	overflow-y: scroll;
+}
+
+.fieldsWrapper {
+	width: 100%;
+}
+
+.cross {
+	margin-left: auto;
+    cursor: pointer;
+}
+
+.titles {
+	display: flex;
+}
+
+.titles > div:first-child {
+	width: calc(40% + 16px);
+}
+
+.row {
+	display: flex;
+}
+
+.select {
+	display: flex;
+
+	width: 45%;
+	margin-top: 16px;
+}
+
+.of {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 42px;
+
+	color: var(--light-grey);
+	border-top: 1px solid #FFFFFF4D;
+	border-bottom: 1px solid #FFFFFF4D;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+}
+
+.crossBox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	width: 56px;
+	height: 56px;
+	margin-top: 16px;
+
+	border: 1px solid #FFFFFF4D;
+	border-radius: 7px;
+}
+
+.addMoreButton {
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.footer button {
+	display: flex; 
+
+	margin: 24px 24px 24px auto;
+}

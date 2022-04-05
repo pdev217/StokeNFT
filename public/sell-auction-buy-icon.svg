@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.469" height="57.831" viewBox="0 0 67.469 57.831">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbee00"/>
+      <stop offset="0.315" stop-color="#fc3aaa"/>
+      <stop offset="0.719" stop-color="#617bff"/>
+      <stop offset="1" stop-color="#617bff"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_ionic-ios-git-network" data-name="Icon ionic-ios-git-network" d="M51.7,2.25a10.651,10.651,0,0,0-8,17.665A10.525,10.525,0,0,0,49.454,23.3v6.491L33.415,38.138,17.391,29.795V23.3A10.639,10.639,0,1,0,7.135,19.915,10.525,10.525,0,0,0,12.888,23.3v8.644a1.054,1.054,0,0,0,.587.949l17.7,9.156v6.611a10.635,10.635,0,1,0,10.241,3.388,10.525,10.525,0,0,0-5.753-3.389V42.054l17.7-9.156a1.054,1.054,0,0,0,.587-.949V23.3A10.648,10.648,0,0,0,51.7,2.25ZM8.988,12.9a6.144,6.144,0,1,1,6.144,6.144A6.151,6.151,0,0,1,8.988,12.9ZM39.56,59.071a6.144,6.144,0,1,1-6.144-6.144A6.151,6.151,0,0,1,39.56,59.071ZM51.7,19.057a6.144,6.144,0,1,1,6.144-6.144A6.151,6.151,0,0,1,51.7,19.057Z" transform="translate(69.719 -4.5) rotate(90)" fill="url(#linear-gradient)"/>
+</svg>

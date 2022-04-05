@@ -1,0 +1,25 @@
+.wrapper {
+	display: flex;
+	overflow-y: scroll;
+
+	width: 100vw;
+	margin-bottom: 76.5px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.wrapper::-webkit-scrollbar {
+	display: none;
+}
+
+.card {
+	margin: 0 1%;
+}
+
+.card:first-child {
+	margin-left: 6.2%;
+}
+
+.card:last-child {
+	margin-right: 6.2%;
+}

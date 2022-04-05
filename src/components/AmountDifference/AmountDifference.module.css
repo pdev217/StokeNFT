@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+
+	width: fit-content;
+
+	letter-spacing: 0.8px;
+
+	opacity: 1;
+	color: #64FF8E;
+
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.icon {
+	margin-right: 7px;
+	padding-bottom: 3px;
+}
+
+.iconReversed {
+	margin-right: 7px;
+	padding-bottom: 3px;
+
+	transform: rotate(180deg);
+}
+
+.down {
+	color: var(--red);
+}

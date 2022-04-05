@@ -1,0 +1,106 @@
+.wrapper {
+	position: relative;
+	z-index: 1;
+
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	height: 723px;
+	padding-left: 6.2%;
+}
+
+
+
+.leftSide {
+	position: relative;
+
+	width: 40.67%;
+
+	margin-top: 45px;
+}
+
+.bigMainpageCollectionInfo {
+	width: 100%;
+}
+
+.horizontalNFTCard {
+	position: absolute;
+	z-index: 6;
+	top: 287px;
+	left: -53px;
+}
+
+.rightSide {
+	position: relative;
+
+	width: 40.67%;
+
+	margin: 61px 6.2% 0 0;
+
+	color: var(--white);
+}
+
+.rightSideTitle {
+	letter-spacing: 0px;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.browseText {
+	margin-top: 54px;
+	margin-bottom: 31px;
+
+	letter-spacing: 0.9px;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.categoriesBox {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 4.09%;
+	row-gap: 27px;
+}
+
+.category {
+	width: 100%;
+}
+
+@media screen and (max-width: 1800px) {
+	.leftSide {
+		width: 45.67%;
+	}
+  
+	.rightSide {
+		width: 45%;
+	}
+
+	.categoriesBox {
+		column-gap: 3%;
+	}
+}
+
+@media screen and (max-width: 1630px) {
+	.leftSide {
+		width: 50.67%;
+	}
+  
+	.rightSide {
+		width: 40%;
+	}
+
+	.categoriesBox {
+		column-gap: 3%;
+	}
+}
+@media screen and (max-width: 1400px) {
+
+	.rightSideTitle {
+		font-size: 32px;
+	}
+}

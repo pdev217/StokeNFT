@@ -1,0 +1,161 @@
+.wrapper {
+	position: relative;
+	z-index: 10;
+
+	display: flex;
+	overflow: hidden;
+
+	width: 21.87%;
+	min-width: 400px;
+
+	border: 1px solid #6478FB;
+	border-radius: 22px;
+	background: rgb(40 40 41);
+	aspect-ratio: 1 / 0.91;
+}
+
+/* 420 395 */
+
+.leftSide {
+	width: 60%;
+	height: 100%;
+}
+
+.imageWrapper {
+	position: relative;
+
+	overflow: hidden;
+
+	width: 100%;
+
+	border-radius: 22px;
+	aspect-ratio: 1 / 0.95;
+}
+
+.errorImage {
+	width: 100%;
+	height: 100%;
+
+	background-color: var(--black);
+}
+
+.leftSideInfo {
+	padding-top: 4.8%;
+	padding-left: 10.5%;
+}
+
+.NFTName {
+	margin: 0;
+
+	color: white;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+
+.time {
+	margin-top: 2%;
+	margin-bottom: 3.4%;
+
+	color: rgb(255 54 84);
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.usernameCodeTag {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+
+	margin-top: 3%;
+}
+
+.priceInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.username {
+	margin: 0;
+
+	color: white;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+}
+
+.code {
+	margin: 3px 0 0;
+
+	color: rgb(137 141 150);
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.rightSide {
+	display: flex;
+	flex-direction: column;
+
+	width: 40%;
+	padding-top: 3.5%;
+	padding-right: 4%;
+	padding-bottom: 3.5%;
+	padding-left: 4%;
+}
+
+.currentPriceTitle {
+	margin: 0 0 3%;
+
+	color: white;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+}
+
+.views {
+	margin-top: 3%;
+
+	color: rgb(137 141 150);
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.historyTitle {
+	margin: 2% 0 7.7%;
+
+	color: white;
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+}
+
+.prevPrice {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 9.7% 0;
+
+	border-bottom: 1px solid rgb(55 56 58);
+}
+
+.updatePrevPrice {
+	margin: 0;
+
+	color: rgb(137 141 150);
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.button {
+	align-self: flex-end;
+
+	margin-top: auto;
+}

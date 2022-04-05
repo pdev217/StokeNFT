@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="68.31" viewBox="0 0 74 68.31">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#617bff"/>
+      <stop offset="1" stop-color="#8f68fb"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_ionic-ios-wallet" data-name="Icon ionic-ios-wallet" transform="translate(-3.375 -4.499)">
+    <path id="Path_316" data-name="Path 316" d="M66.7,11.25H14.048A10.682,10.682,0,0,0,3.375,21.923V51.808A10.682,10.682,0,0,0,14.048,62.481H66.7A10.682,10.682,0,0,0,77.375,51.808V21.923A10.682,10.682,0,0,0,66.7,11.25Z" transform="translate(0 10.328)" fill="url(#linear-gradient)"/>
+    <path id="Path_317" data-name="Path 317" d="M54.112,4.679,12.327,12.844c-3.2.712-7.827,3.931-7.827,7.845,0,0,2.668-3.38,8.716-3.38H64.269V13.662A10.215,10.215,0,0,0,61.8,6.974h0A8.413,8.413,0,0,0,54.112,4.679Z" transform="translate(1.721 0)" fill="#fc3aaa"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.229" height="68" viewBox="0 0 73.229 68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#617bff"/>
+      <stop offset="1" stop-color="#8ff3c8"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_ionic-ios-create" data-name="Icon ionic-ios-create" transform="translate(-2.25 -3.375)">
+    <g id="Group_325" data-name="Group 325" transform="translate(29.705 3.375)">
+      <path id="Path_318" data-name="Path 318" d="M47.45,6.263,14.438,39.275a1.285,1.285,0,0,0-.376.915v4.331a1.294,1.294,0,0,0,1.291,1.291h4.3a1.323,1.323,0,0,0,.932-.376L53.611,12.424a1.292,1.292,0,0,0,0-1.83L49.28,6.263A1.292,1.292,0,0,0,47.45,6.263Z" transform="translate(-14.063 -0.053)" fill="#fbee00"/>
+      <path id="Path_319" data-name="Path 319" d="M38.108,6.48,35.754,4.127l-.033-.033a2.889,2.889,0,0,0-1.879-.719,2.831,2.831,0,0,0-1.9.735L30.1,5.973a.661.661,0,0,0,0,.915l1.7,1.7,3.546,3.546a.651.651,0,0,0,.932,0l1.847-1.847a2.787,2.787,0,0,0,.719-1.9A2.957,2.957,0,0,0,38.108,6.48Z" transform="translate(6.931 -3.375)" fill="#fc3aaa"/>
+    </g>
+    <path id="Path_320" data-name="Path 320" d="M37.876,44.466a2.624,2.624,0,0,1-1.847.768H29.264a2.622,2.622,0,0,1-2.615-2.615V35.837a2.624,2.624,0,0,1,.768-1.847l.131-.131L51.669,9.739a.652.652,0,0,0-.458-1.111H11.843A9.6,9.6,0,0,0,2.25,18.22V54.827a9.6,9.6,0,0,0,9.593,9.593H53.679a9.6,9.6,0,0,0,9.593-9.593V20.672a.649.649,0,0,0-1.111-.458L38.007,44.335Z" transform="translate(0 6.955)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

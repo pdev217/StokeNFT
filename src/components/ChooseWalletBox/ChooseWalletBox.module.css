@@ -1,0 +1,54 @@
+.wallet {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	padding: 22px 24px;
+
+	cursor: pointer;
+
+	border: 1px solid var(--dark-grey) ;
+	background-color: transparent;
+}
+
+.wallet:hover {
+	background: var(--dark-grey);
+}
+
+.wallet[disabled] {
+	cursor: default;
+
+	opacity: 0.33;
+}
+
+.wallet:first-child {
+	border-radius: 16px 16px 0 0;
+}
+
+.wallet:last-child {
+	border-radius: 0 0 16px 16px;
+}
+
+.walletName,
+.moreOptionsText {
+	margin: 0 0 0 16px;
+
+	letter-spacing: 0;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.popular {
+	margin: 0 0 0 auto;
+
+	letter-spacing: 0.02px;
+
+	color: var(--light-grey);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+}

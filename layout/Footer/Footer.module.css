@@ -1,0 +1,176 @@
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.logoWrapper {
+	width: 11.71%;
+	margin-top: 44px;
+	margin-left: 6.24%;
+}
+
+.logo {
+	position: relative;
+
+	width: 100%;
+	aspect-ratio: 1 / 1.12;
+}
+
+.aboutStoke {
+	width: 16.66%;
+	margin-top: 100px;
+	margin-left: 5.14%;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+}
+
+.categoriesAndWalletIconsWrapper {
+	width: 28.85%;
+	margin-top: 96px;
+	margin-left: 8.07%;
+}
+
+.categories {
+	display: grid;
+	grid-template-columns: 21.69% 21.69% 21.69%;
+	column-gap: 17%;
+	row-gap: 39px;
+}
+
+.category {
+	letter-spacing: 0.02px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+
+	margin-top: 64px;
+	margin-bottom: 97px;
+}
+
+.walletIcon {
+	position: relative;
+
+	width: 31px;
+	min-width: 25px;
+	height: 31px;
+	margin-right: 25px;
+}
+
+.andMore {
+	letter-spacing: 002px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.getAlertsAndSignUpWrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	margin-top: 96px;
+	margin-right: 6.25%;
+	margin-bottom: 6.25%;
+	margin-left: 3.5%;
+}
+
+.getAlerts {
+	display: flex;
+	align-items: center;
+}
+
+.getAlertsText {
+	margin-left: 12px;
+
+	text-align: center;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.alertIcon {
+	position: relative;
+
+	width: 25px;
+	min-width: 20px;
+	height: 25px;
+}
+
+.button {
+	position: relative;
+}
+
+@media screen and (max-width: 1850px) {
+	.categories {
+		grid-template-columns: 26.69% 26.69% 26.69%;
+		column-gap: 13%;
+	}
+}
+
+@media screen and (max-width: 1620px) {
+	.categoriesAndWalletIconsWrapper {
+		margin-left: 4%;
+	}
+
+	.categories {
+		display: grid;
+		grid-template-columns: 26.69% 26.69% 26.69%;
+		column-gap: 10%;
+		row-gap: 39px;
+	}
+
+	.category {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1540px) {
+	.categories {
+		grid-template-columns: 28.5% 28.5% 28.5%;
+		column-gap: 7%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.aboutStoke {
+		margin-left: 4%;
+	}
+
+	.logoWrapper {
+		margin-top: 64px;
+	}
+
+	.getAlertsAndSignUpWrapper {
+		width: 210px;
+	}
+
+	.categories {
+		grid-template-columns: 29.5% 29.5% 29.5%;
+		column-gap: 7%;
+	}
+
+	.categoriesAndWalletIconsWrapper {
+		width: 32.85%;
+	}
+}

@@ -1,0 +1,14 @@
+.wrapper {
+	position: relative;
+	z-index: 9;
+
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: visible;
+	justify-content: center;
+
+	width: fit-content;
+	margin: 50px calc(50% - 215px) 0;
+	padding: 25px 25px;
+}
+

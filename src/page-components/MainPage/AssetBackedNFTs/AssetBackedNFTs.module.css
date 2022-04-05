@@ -1,0 +1,196 @@
+.wrapper {
+	margin-top: 140px;
+}
+
+.titleSwitherButtonWrapper {
+	display: flex;
+
+	padding: 0 6.2%;
+}
+
+.title {
+	margin: 0;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.switcher {
+	display: flex;
+
+	letter-spacing: 0.8px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+}
+
+.toCenter {
+	margin-left: calc(50% - 363px - 359px);
+}
+
+.section {
+	padding: 14px 49px 12px 50px;
+
+	border: 1px solid var(--white);
+	border-right: 1px solid var(--white);
+}
+
+.section:first-child {
+	border-radius: 30px 0 0 30px;
+}
+
+.section:last-child {
+	border-radius: 0 30px 30px 0;
+}
+
+.active {
+	border: 1px solid var(--primary);
+	background: var(--primary) 0% 0% no-repeat padding-box;
+}
+
+.button {
+	margin-left: auto;
+}
+
+.aboutABNFTs {
+	display: flex;
+
+	margin-bottom: 126px;
+	padding: 0 12%;
+}
+
+.categories {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 777px;
+	margin-top: 98px;
+}
+
+.bigIcon {
+	display: flex;
+	justify-content: center;
+
+	width: 185px;
+}
+
+.textsUnderIcons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 777px;
+	margin-top: 32px;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.textUnderIcon {
+	width: 185px;
+
+	text-align: center;
+}
+
+.aboutTextWrapper {
+	margin-left: 8.9%;
+}
+
+.aboutTitle {
+	margin-top: 120px;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+}
+
+.aboutText {
+	overflow: scroll;
+
+	width: 100%;
+	height: 90px;
+	margin-top: 25px;
+
+	letter-spacing: 0px;
+
+	color: var(--white);
+
+	font-family: "Nimbus Sans", sans-serif;
+	font-size: 18px;
+	line-height: 33px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.aboutText::-webkit-scrollbar {
+	display: none;
+}
+@media screen and (max-width: 1850px) {
+	.titleSwitherButtonWrapper {
+		align-items: center;
+		justify-content: space-between;
+	}
+	.toCenter {
+		margin-left: 0;
+	}
+
+	.button {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1580px) {
+	.switcher {
+		flex-direction: column;
+	}
+	
+	.section:first-child {
+		border-radius: 30px 30px 0 0;
+	}
+	
+	.section:last-child {
+		border-radius: 0 0 30px 30px;
+	}
+}
+
+@media screen and (max-width: 1375px) {
+	.titleSwitherButtonWrapper {
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.wrapper {
+		margin-top: 100px;
+	}
+
+	.aboutABNFTs {
+		flex-direction: column;
+	}
+
+	.aboutTextWrapper {
+		margin: 0;
+	}
+
+	.categoriesTextWrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
